@@ -12,7 +12,36 @@
 <div class="container">
 <h1>Project Javascript</h1>
 
+ <h1>Rectangle Area Calculator</h1>
+    
+    <label for="length">Length: </label>
+    <input type="number" id="length" placeholder="Enter length"><br><br>
+
+    <label for="width">Width: </label>
+    <input type="number" id="width" placeholder="Enter width"><br><br>
+
+    <button onclick="calculateArea()">Calculate Area</button><br><br>
+    <button onclick="resetForm()">Reset</button><br><br>
+
+
+    <p id="result"></p>
+
 </div>    
+
+ <div class="container">
+        <h1>Houses for Rent</h1>
+        <div id="houseList" class="house-list">
+            <!-- House tiles will be dynamically added here -->
+        </div>
+        <div class="add-house-form">
+            <h2>Add a New House 😇 </h2>
+            <input type="text" id="houseName" placeholder="House Name">
+            <input type="text" id="location" placeholder="Location">
+            <input type="text" id="address" placeholder="Address">
+            <input type="number" id="rate" placeholder="Rate for Rent">
+            <button id="addHouseBtn">Add House</button>
+        </div>
+</div>
     
     
 <script src="script.js"></script>    
